@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "87462681567",
+    "firebase_url": "https://instagram-cdcc5-default-rtdb.firebaseio.com",
+    "project_id": "instagram-cdcc5",
+    "storage_bucket": "instagram-cdcc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87462681567:android:a612171283b297d360426a",
+        "android_client_info": {
+          "package_name": "com.example.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87462681567-ltjom2j851fu128p96sljdjsp36dcror.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGQ7BjGrUiYGKFQ3krUbA9yINwx3GfrLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87462681567-ltjom2j851fu128p96sljdjsp36dcror.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
