@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.instagram.Adapter.MyFotosAdapter;
+import com.example.instagram.EditProfileActivity;
 import com.example.instagram.Model.Post;
 import com.example.instagram.Model.User;
 import com.example.instagram.R;
@@ -118,7 +119,7 @@ public class ProfileFragment extends Fragment {
 
                 if (btn.equals("Edit Profile")){
 
-                    //todo edit profile
+                   startActivity(new Intent(getContext(),EditProfileActivity.class));
 
                 } else if (btn.equals("follow")){
 
