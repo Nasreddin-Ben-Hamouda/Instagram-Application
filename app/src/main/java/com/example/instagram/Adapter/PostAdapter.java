@@ -23,6 +23,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.instagram.CommentsActivity;
+import com.example.instagram.FollowersActivity;
 import com.example.instagram.Fragments.PostDetailFragment;
 import com.example.instagram.Fragments.ProfileFragment;
 import com.example.instagram.Model.Post;
@@ -179,7 +180,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
             }
         });
 
-      /*  holder.likes.setOnClickListener(new View.OnClickListener() {
+       holder.likes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(mContext, FollowersActivity.class);
@@ -187,7 +188,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
                 intent.putExtra("title", "likes");
                 mContext.startActivity(intent);
             }
-        });*/
+        });
 
         holder.more.setOnClickListener(new View.OnClickListener() {
             @Override
