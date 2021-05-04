@@ -19,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.instagram.Adapter.MyFotosAdapter;
 import com.example.instagram.EditProfileActivity;
+import com.example.instagram.FollowersActivity;
 import com.example.instagram.Model.Post;
 import com.example.instagram.Model.User;
 import com.example.instagram.R;
@@ -166,20 +167,20 @@ public class ProfileFragment extends Fragment {
         followers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(getContext(), FollowersActivity.class);
-//                intent.putExtra("id", profileid);
-//                intent.putExtra("title", "followers");
-//                startActivity(intent);
+                Intent intent = new Intent(getContext(), FollowersActivity.class);
+                intent.putExtra("id", profileid);
+                intent.putExtra("title", "followers");
+                startActivity(intent);
             }
         });
 
         following.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(getContext(), FollowersActivity.class);
-//                intent.putExtra("id", profileid);
-//                intent.putExtra("title", "following");
-//                startActivity(intent);
+                Intent intent = new Intent(getContext(), FollowersActivity.class);
+                intent.putExtra("id", profileid);
+                intent.putExtra("title", "following");
+                startActivity(intent);
             }
         });
 

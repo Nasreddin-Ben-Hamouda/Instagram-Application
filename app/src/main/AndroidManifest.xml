@@ -19,6 +19,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".EditProfileActivity"/>
+        <activity android:name=".FollowersActivity"/>
         <activity android:name=".StartActivity">
 
             <intent-filter>
